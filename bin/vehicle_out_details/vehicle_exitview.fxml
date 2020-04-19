@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vehicle_out_details.vehicle_exitviewController">
+   <children>
+      <Label layoutX="95.0" layoutY="25.0" prefHeight="31.0" prefWidth="181.0" text="Vehicle Exit">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="62.0" fitWidth="102.0" layoutX="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../vehicle_details/vehicle2.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtVehicleNo" layoutX="103.0" layoutY="86.0" />
+      <Label layoutX="30.0" layoutY="90.0" text="Vehicle No." />
+      <Button layoutX="274.0" layoutY="86.0" mnemonicParsing="false" onAction="#doFetch" text="Fetch" />
+      <TextField fx:id="txtFloor" disable="true" layoutX="35.0" layoutY="155.0" prefHeight="25.0" prefWidth="51.0" />
+      <TextField fx:id="txtSlot" disable="true" layoutX="111.0" layoutY="155.0" prefHeight="25.0" prefWidth="51.0" />
+      <TextField fx:id="txtParkedTime" disable="true" layoutX="357.0" layoutY="155.0" />
+      <TextField fx:id="txtParkedDate" disable="true" layoutX="186.0" layoutY="155.0" />
+      <TextField fx:id="txtType" disable="true" layoutX="524.0" layoutY="155.0" prefHeight="25.0" prefWidth="51.0" />
+      <Label layoutX="47.0" layoutY="137.0" text="Floor" />
+      <Label layoutX="126.0" layoutY="137.0" text="Slot" />
+      <Label layoutX="228.0" layoutY="137.0" text="Parked Date" />
+      <Label layoutX="399.0" layoutY="137.0" text="Parked Time" />
+      <Label layoutX="537.0" layoutY="137.0" text="Type" />
+      <TextField fx:id="txtCurrentTime" disable="true" layoutX="427.0" layoutY="210.0" />
+      <TextField fx:id="txtCurrentDate" disable="true" layoutX="123.0" layoutY="210.0" />
+      <Label layoutX="40.0" layoutY="214.0" text="Current Date" />
+      <Label layoutX="353.0" layoutY="214.0" text="Current Time" />
+      <TextField fx:id="txtBill" disable="true" layoutX="123.0" layoutY="272.0" />
+      <Button layoutX="293.0" layoutY="272.0" mnemonicParsing="false" onAction="#doBill" text="Generate Bill" />
+      <Label layoutX="47.0" layoutY="276.0" text="Amount" />
+      <Button layoutX="406.0" layoutY="272.0" mnemonicParsing="false" text="Show Vehicle History" />
+      <Label fx:id="notification" layoutX="17.0" layoutY="351.0" prefHeight="19.0" prefWidth="328.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="56.0" fitWidth="102.0" layoutX="499.0" layoutY="343.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../customer_registratioin/logo1(copy).jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="437.0" layoutY="352.0" prefHeight="17.0" prefWidth="70.0" text="Pvt Ltd, Delhi" />
+      <Label layoutX="363.0" layoutY="370.0" text="HelpLine No : 011-2232322" />
+      <ImageView fitHeight="17.0" fitWidth="165.0" layoutX="329.0" layoutY="352.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../dashboard_details/logo.JPG" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtMobile" disable="true" layoutX="325.0" layoutY="241.0" />
+      <Label layoutX="472.0" layoutY="245.0" text="Mobile" />
+   </children>
+</AnchorPane>

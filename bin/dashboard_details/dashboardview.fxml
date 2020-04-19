@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="626.0" prefWidth="777.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashboard_details.dashboardviewController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="151.0" layoutX="55.0" layoutY="154.0" onMouseClicked="#dovehicleentry" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="171.0" fitWidth="150.0" layoutX="258.0" layoutY="154.0" onMouseClicked="#dovehicleexit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="151.0" layoutX="464.0" layoutY="154.0" onMouseClicked="#dotablehow" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="457.0" layoutX="145.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.JPG" />
+         </image>
+      </ImageView>
+      <Label layoutX="72.0" layoutY="323.0" text="Vehicle Entry">
+         <font>
+            <Font name="SimSun" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="279.0" layoutY="323.0" text="Vehicle Exit">
+         <font>
+            <Font name="SimSun" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="490.0" layoutY="323.0" text="System Tables">
+         <font>
+            <Font name="SimSun" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="89.0" fitWidth="117.0" layoutX="28.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../customer_registratioin/logo1(copy).jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="548.0" layoutY="48.0" prefHeight="25.0" prefWidth="64.0" text="Pvt. Ltd. ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="129.0" layoutY="73.0" prefHeight="25.0" prefWidth="182.0" text="HelpLine No : 011-2232322">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="240.0" fitWidth="749.0" layoutX="31.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@info.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="113.0" fitWidth="125.0" layoutX="529.0" layoutY="402.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="34.0" fitWidth="48.0" layoutX="683.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@3.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="72.0" layoutX="646.0" layoutY="143.0" onMouseClicked="#dox" stroke="BLACK" strokeType="INSIDE" width="108.0">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#212f3b00" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="72.0" layoutX="646.0" layoutY="241.0" onMouseClicked="#doy" stroke="BLACK" strokeType="INSIDE" width="108.0">
+         <fill>
+            <RadialGradient centerX="0.5166666666666667" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#ffffff00" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <ImageView fitHeight="34.0" fitWidth="64.0" layoutX="672.0" layoutY="253.0" onMouseClicked="#dofloorshow" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@floor.JPG" />
+         </image>
+      </ImageView>
+      <Label layoutX="661.0" layoutY="188.0" onMouseClicked="#docustomershow" prefHeight="20.0" prefWidth="88.0" text="Customer Log">
+         <font>
+            <Font name="SimSun" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="653.0" layoutY="287.0" prefHeight="20.0" prefWidth="96.0" text="Floor's Status">
+         <font>
+            <Font name="SimSun" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

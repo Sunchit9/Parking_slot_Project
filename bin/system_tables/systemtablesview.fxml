@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="449.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="system_tables.systemtablesviewController">
+   <children>
+      <ImageView fitHeight="113.0" fitWidth="113.0" layoutX="66.0" layoutY="38.0" onMouseClicked="#showa" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="113.0" fitWidth="134.0" layoutX="68.0" layoutY="233.0" onMouseClicked="#showc" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="113.0" fitWidth="145.0" layoutX="397.0" layoutY="233.0" onMouseClicked="#showd" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@qwqw.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="113.0" layoutX="388.0" layoutY="47.0" onMouseClicked="#showb" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Capture.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="102.0" layoutX="498.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../customer_registratioin/logo1(copy).jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="430.0" layoutY="402.0" prefHeight="17.0" prefWidth="70.0" text="Pvt Ltd, Delhi" />
+      <Label layoutX="358.0" layoutY="423.0" text="HelpLine No : 011-2232322" />
+      <ImageView fitHeight="17.0" fitWidth="165.0" layoutX="324.0" layoutY="402.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../dashboard_details/logo.JPG" />
+         </image>
+      </ImageView>
+      <Label layoutX="76.0" layoutY="163.0" text="Parking Log">
+         <font>
+            <Font name="Lucida Sans Demibold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="390.0" layoutY="163.0" text="Customer Log">
+         <font>
+            <Font name="Lucida Sans Demibold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="355.0" text="Floor Log">
+         <font>
+            <Font name="Lucida Sans Demibold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="417.0" layoutY="355.0" text="Slots Log">
+         <font>
+            <Font name="Lucida Sans Demibold" size="15.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="156.0" layoutX="51.0" layoutY="35.0" onMouseClicked="#showparking" stroke="BLACK" strokeType="INSIDE" width="154.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="156.0" layoutX="368.0" layoutY="35.0" onMouseClicked="#showcustomer" stroke="BLACK" strokeType="INSIDE" width="154.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="156.0" layoutX="51.0" layoutY="223.0" onMouseClicked="#showfloor" stroke="BLACK" strokeType="INSIDE" width="154.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="156.0" layoutX="377.0" layoutY="223.0" onMouseClicked="#showslot" stroke="BLACK" strokeType="INSIDE" width="154.0" />
+      <Circle fill="#1f93ff02" layoutX="287.0" layoutY="225.0" onMouseClicked="#showe" radius="62.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="78.0" fitWidth="73.0" layoutX="251.0" layoutY="187.0" onMouseClicked="#showINC" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@8.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="68.0" layoutY="398.0" mnemonicParsing="false" onAction="#doback" text="&lt;- Back" />
+   </children>
+</AnchorPane>
